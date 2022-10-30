@@ -196,7 +196,8 @@
       color: var(--white-text-color);
     }
 
-    .footer-link {
+    .footer-link,
+    .footer-contact {
       font-style: normal;
       font-size: 14px;
       line-height: calc(24 / 14);
@@ -206,11 +207,12 @@
     }
 
     .footer-contact {
-      font-style: normal;
-      font-size: 14px;
-      line-height: calc(24 / 14);
-      letter-spacing: 0.03em;
-      
-      color: var(--contact-text-color);
+     color: var(--contact-text-color);
+    }
+
+    
+    .footer-contact:hover,
+    .footer-contact:focus {
+     color: var(--accent-color);
     }
         
