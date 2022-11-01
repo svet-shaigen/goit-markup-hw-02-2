@@ -16,9 +16,14 @@
     }
 
     body {
-        font-family: var(--font-rob); 
+        font-family: var(--font-rob);
+        font-size: 14px; 
+        letter-spacing: 0.03em;
+        line-height: calc(19 / 16);
+
         background-color: var(--primary-bg-color);
         color: var(--title-text-color);
+       
     }
 
     h1,
@@ -65,7 +70,6 @@
        font-weight: 700;
        font-size: 26px;
        line-height: calc(31 / 26);
-       letter-spacing: 0.03em;
        
        color: var(--accent-color);
        }
@@ -77,13 +81,14 @@
        .header-nav-link,
        .header-contact {
         font-weight: 500;
-        font-size: 14px;
         line-height: calc(16 / 14);
         letter-spacing: 0.02em;
         
         color: var(--title-text-color);
        }
 
+       .header-nav-link:hover,
+       .header-nav-link:focus,
        .header-nav-link.current {
         color: var(--accent-color);
       }
@@ -137,16 +142,12 @@
 
 
         .features-title {
-        font-size: 14px;
         line-height: calc(16 / 14);
-        letter-spacing: 0.03em;
         text-transform: uppercase;
         }
 
         .features-subtitle {
-            font-size: 14px;
             line-height: calc(24 / 14);
-            letter-spacing: 0.03em;
             
             color: var(--primary-text-color);
         }
@@ -157,7 +158,6 @@
             font-size: 36px;
             line-height: calc(42 / 36);
             text-align: center;
-            letter-spacing: 0.03em;
         }
 
        /* -----------------TEAM---------------- */
@@ -165,32 +165,24 @@
        .team-title {
         font-size: 36px;
         line-height: calc(42 / 36);
-        text-align: center;
-        letter-spacing: 0.03em;
-        }
+       }
 
        .team-item-title {
         font-weight: 500;
         font-size: 16px;
-        line-height: calc(19 / 16);
         
-        text-align: center;
-        letter-spacing: 0.03em;
-        }
+       }
    
        .team-item-text {
         font-size: 16px;
-        line-height: calc(19 / 16);
-        
-        text-align: center;
-        letter-spacing: 0.03em;
         
         color: var(--primary-text-color);
-    }
+       }
 
     .team {
       background-color: var(--team-bg-color);
-    }
+      text-align: center;
+       }
        
     /* -----------------FOOTER---------------- */
 
@@ -204,9 +196,7 @@
     .footer-link,
     .footer-contact {
       font-style: normal;
-      font-size: 14px;
       line-height: calc(24 / 14);
-      letter-spacing: 0.03em;
       
       color: var(--white-text-color);
     }
@@ -260,8 +250,6 @@
     .project-text {
       font-size: 16px;
       line-height: calc(30 / 16);
-      
-      letter-spacing: 0.03em;
       
       color: var(--primary-text-color);
     }
